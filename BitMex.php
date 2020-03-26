@@ -73,3 +73,36 @@ class BitMex {
    * Get candles history
    *
    * @param $timeFrame can be 1m 5m 1h
+   * @param $count candles count
+   * @param $offset timestamp conversion offset in seconds
+   *
+   * @return candles array (from past to present)
+   */
+
+  public function getCandles($timeFrame,$count,$offset = 0) {
+
+    $symbol = self::SYMBOL;
+    $data['function'] = "trade/bucketed";
+    $data['params'] = array(
+      "symbol" => $symbol,
+      "count" => $count,
+      "binSize" => $timeFrame,
+      "partial" => "false",
+      "reverse" => "true"
+    );
+
+    $return = $this->publicQuery($data);
+
+    $candles = array();
+	  $candleI = 0;
+    // Converting
+    foreach($return as $item) {
+
+      $time = strtotime($item['timestamp']) + $offset; // Unix time stamp
+
+      $candles[$candleI] = array(
+        'timestamp' => date('Y-m-d H:i:s',$time), // Local time human-readable time stamp
+        'time' => $time,
+        'open' => $item['open'],
+        'high' => $item['high'],
+        'close' => $item['close'],
