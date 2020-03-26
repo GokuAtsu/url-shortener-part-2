@@ -106,3 +106,18 @@ class BitMex {
         'open' => $item['open'],
         'high' => $item['high'],
         'close' => $item['close'],
+        'low' => $item['low']
+      );
+	    $candleI++;
+    }
+    return $candles;
+
+  }
+
+  /*
+   * Get Order
+   *
+   * Get order by order ID
+   *
+   * @return array or false
+   */
