@@ -151,3 +151,27 @@ class BitMex {
    *
    * Get last 100 orders
    *
+   * @return orders array (from the past to the present)
+   */
+
+  public function getOrders($count = 100) {
+
+    $symbol = self::SYMBOL;
+    $data['method'] = "GET";
+    $data['function'] = "order";
+    $data['params'] = array(
+      "symbol" => $symbol,
+      "count" => $count,
+      "reverse" => "true"
+    );
+
+    return array_reverse($this->authQuery($data));
+  }
+
+  /*
+   * Get Open Orders
+   *
+   * Get open orders from the last 100 orders
+   *
+   * @return open orders array
+   */
