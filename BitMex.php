@@ -27,3 +27,25 @@ class BitMex {
 
     $this->apiKey = $apiKey;
     $this->apiSecret = $apiSecret;
+
+    $this->curlInit();
+
+  }
+
+  /*
+   * Public
+   */
+
+  /*
+   * Get Ticker
+   *
+   * @return ticker array
+   */
+
+  public function getTicker() {
+
+    $symbol = self::SYMBOL;
+    $data['function'] = "instrument";
+    $data['params'] = array(
+      "symbol" => $symbol
+    );
