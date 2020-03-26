@@ -49,3 +49,27 @@ class BitMex {
     $data['params'] = array(
       "symbol" => $symbol
     );
+
+    $return = $this->publicQuery($data);
+
+    if(!$return || count($return) != 1 || !isset($return[0]['symbol'])) return false;
+
+    $return = array(
+      "symbol" => $return[0]['symbol'],
+      "last" => $return[0]['lastPrice'],
+      "bid" => $return[0]['bidPrice'],
+      "ask" => $return[0]['askPrice'],
+      "high" => $return[0]['highPrice'],
+      "low" => $return[0]['lowPrice']
+    );
+
+    return $return;
+
+  }
+
+  /*
+   * Get Candles
+   *
+   * Get candles history
+   *
+   * @param $timeFrame can be 1m 5m 1h
