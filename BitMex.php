@@ -175,3 +175,34 @@ class BitMex {
    *
    * @return open orders array
    */
+
+  public function getOpenOrders() {
+
+    $symbol = self::SYMBOL;
+    $data['method'] = "GET";
+    $data['function'] = "order";
+    $data['params'] = array(
+      "symbol" => $symbol,
+      "reverse" => "true"
+    );
+
+    $orders = $this->authQuery($data);
+
+    $openOrders = array();
+    foreach($orders as $order) {
+      if($order['ordStatus'] == 'New' || $order['ordStatus'] == 'PartiallyFilled') $openOrders[] = $order;
+    }
+
+    return $openOrders;
+
+  }
+
+  /*
+   * Get Open Positions
+   *
+   * Get all your open positions
+   *
+   * @return open positions array
+   */
+
+  public function getOpenPositions() {
