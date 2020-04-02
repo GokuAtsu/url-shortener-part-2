@@ -206,3 +206,30 @@ class BitMex {
    */
 
   public function getOpenPositions() {
+
+    $symbol = self::SYMBOL;
+    $data['method'] = "GET";
+    $data['function'] = "position";
+    $data['params'] = array(
+      "symbol" => $symbol
+    );
+
+    $positions = $this->authQuery($data);
+
+    $openPositions = array();
+    foreach($positions as $position) {
+      if(isset($position['isOpen']) && $position['isOpen'] == true) {
+        $openPositions[] = $position;
+      }
+    }
+
+    return $openPositions;
+  }
+
+  /*
+   * Close Position
+   *
+   * Close open position
+   *
+   * @return array
+   */
