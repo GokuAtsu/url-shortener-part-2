@@ -233,3 +233,21 @@ class BitMex {
    *
    * @return array
    */
+
+  public function closePosition($price) {
+
+    $symbol = self::SYMBOL;
+    $data['method'] = "POST";
+    $data['function'] = "order/closePosition";
+    $data['params'] = array(
+      "symbol" => $symbol,
+      "price" => $price
+    );
+
+    return $this->authQuery($data);
+  }
+
+  /*
+   * Edit Order Price
+   *
+   * Edit you open order price
