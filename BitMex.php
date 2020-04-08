@@ -251,3 +251,21 @@ class BitMex {
    * Edit Order Price
    *
    * Edit you open order price
+   *
+   * @param $orderID    Order ID
+   * @param $price      new price
+   *
+   * @return new order array
+   */
+
+  public function editOrderPrice($orderID,$price) {
+
+    $data['method'] = "PUT";
+    $data['function'] = "order";
+    $data['params'] = array(
+      "orderID" => $orderID,
+      "price" => $price
+    );
+
+    return $this->authQuery($data);
+  }
