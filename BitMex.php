@@ -269,3 +269,27 @@ class BitMex {
 
     return $this->authQuery($data);
   }
+
+  /*
+   * Create Order
+   *
+   * Create new market order
+   *
+   * @param $type can be "Limit"
+   * @param $side can be "Buy" or "Sell"
+   * @param $price BTC price in USD
+   * @param $quantity should be in USD (number of contracts)
+   * @param $maker forces platform to complete your order as a 'maker' only
+   *
+   * @return new order array
+   */
+
+  public function createOrder($type,$side,$price,$quantity,$maker = false) {
+
+    $symbol = self::SYMBOL;
+    $data['method'] = "POST";
+    $data['function'] = "order";
+    $data['params'] = array(
+      "symbol" => $symbol,
+      "side" => $side,
+      "price" => $price,
