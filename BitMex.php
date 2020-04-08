@@ -315,3 +315,27 @@ class BitMex {
    */
 
   public function cancelAllOpenOrders($text = "") {
+
+    $symbol = self::SYMBOL;
+    $data['method'] = "DELETE";
+    $data['function'] = "order/all";
+    $data['params'] = array(
+      "symbol" => $symbol,
+      "text" => $text
+    );
+
+    return $this->authQuery($data);
+  }
+
+  /*
+   * Get Wallet
+   *
+   * Get your account wallet
+   *
+   * @return array
+   */
+
+  public function getWallet() {
+
+    $data['method'] = "GET";
+    $data['function'] = "user/wallet";
