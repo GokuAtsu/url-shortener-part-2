@@ -293,3 +293,25 @@ class BitMex {
       "symbol" => $symbol,
       "side" => $side,
       "price" => $price,
+      "orderQty" => $quantity,
+      "ordType" => $type
+    );
+
+    if($maker) {
+      $data['params']['execInst'] = "ParticipateDoNotInitiate";
+    }
+
+    return $this->authQuery($data);
+  }
+
+  /*
+   * Cancel All Open Orders
+   *
+   * Cancels all of your open orders
+   *
+   * @param $text is a note to all closed orders
+   *
+   * @return all closed orders arrays
+   */
+
+  public function cancelAllOpenOrders($text = "") {
