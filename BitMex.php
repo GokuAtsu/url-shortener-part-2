@@ -339,3 +339,25 @@ class BitMex {
 
     $data['method'] = "GET";
     $data['function'] = "user/wallet";
+    $data['params'] = array(
+      "currency" => "XBt"
+    );
+
+    return $this->authQuery($data);
+  }
+
+  /*
+   * Get Margin
+   *
+   * Get your account margin
+   *
+   * @return array
+   */
+
+  public function getMargin() {
+
+    $data['method'] = "GET";
+    $data['function'] = "user/margin";
+    $data['params'] = array(
+      "currency" => "XBt"
+    );
