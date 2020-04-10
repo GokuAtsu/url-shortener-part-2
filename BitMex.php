@@ -361,3 +361,38 @@ class BitMex {
     $data['params'] = array(
       "currency" => "XBt"
     );
+
+    return $this->authQuery($data);
+  }
+
+  /*
+   * Get Order Book
+   *
+   * Get L2 Order Book
+   *
+   * @return array
+   */
+
+  public function getOrderBook($depth = 25) {
+
+    $symbol = self::SYMBOL;
+    $data['method'] = "GET";
+    $data['function'] = "orderBook/L2";
+    $data['params'] = array(
+      "symbol" => $symbol,
+      "depth" => $depth
+    );
+
+    return $this->authQuery($data);
+  }
+
+  /*
+   * Set Leverage
+   *
+   * Set position leverage
+   * $leverage = 0 for cross margin
+   *
+   * @return array
+   */
+
+  public function setLeverage($leverage) {
