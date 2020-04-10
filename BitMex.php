@@ -517,3 +517,21 @@ class BitMex {
     $function = $data['function'];
     $params = http_build_query($data['params']);
     $url = self::API_URL . self::API_PATH . $function . "?" . $params;;
+
+    $headers = array();
+
+    $headers[] = 'Connection: Keep-Alive';
+    $headers[] = 'Keep-Alive: 90';
+
+    curl_reset($this->ch);
+    curl_setopt($this->ch, CURLOPT_URL, $url);
+    curl_setopt($this->ch, CURLOPT_SSL_VERIFYPEER , false);
+    curl_setopt($this->ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($this->ch, CURLOPT_HTTPHEADER, $headers);
+    $return = curl_exec($this->ch);
+
+    if(!$return) {
+      $this->curlError();
+      $this->error = true;
+      return false;
+    }
