@@ -461,3 +461,32 @@ class BitMex {
     curl_reset($this->ch);
     curl_setopt($this->ch, CURLOPT_URL, $url);
     if($data['method'] == "POST") {
+      curl_setopt($this->ch, CURLOPT_POST, true);
+      curl_setopt($this->ch, CURLOPT_POSTFIELDS, $post);
+    }
+    if($data['method'] == "DELETE") {
+      curl_setopt($this->ch, CURLOPT_CUSTOMREQUEST, "DELETE");
+      curl_setopt($this->ch, CURLOPT_POSTFIELDS, $post);
+      $headers[] = 'X-HTTP-Method-Override: DELETE';
+    }
+    if($data['method'] == "PUT") {
+      curl_setopt($this->ch, CURLOPT_CUSTOMREQUEST, "PUT");
+      //curl_setopt($this->ch, CURLOPT_PUT, true);
+      curl_setopt($this->ch, CURLOPT_POSTFIELDS, $post);
+      $headers[] = 'X-HTTP-Method-Override: PUT';
+    }
+    curl_setopt($this->ch, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($this->ch, CURLOPT_SSL_VERIFYPEER , false);
+    curl_setopt($this->ch, CURLOPT_RETURNTRANSFER, true);
+    $return = curl_exec($this->ch);
+
+    if(!$return) {
+      $this->curlError();
+      $this->error = true;
+      return false;
+    }
+
+    $return = json_decode($return,true);
+
+    if(isset($return['error'])) {
+      $this->platformError($return);
