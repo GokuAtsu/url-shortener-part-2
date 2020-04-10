@@ -396,3 +396,35 @@ class BitMex {
    */
 
   public function setLeverage($leverage) {
+
+    $symbol = self::SYMBOL;
+    $data['method'] = "POST";
+    $data['function'] = "position/leverage";
+    $data['params'] = array(
+      "symbol" => $symbol,
+      "leverage" => $leverage
+    );
+
+    return $this->authQuery($data);
+  }
+
+  /*
+   * Private
+   *
+   */
+
+  /*
+   * Auth Query
+   *
+   * Query for authenticated queries only
+   *
+   * @param $data consists method (GET,POST,DELETE,PUT),function,params
+   *
+   * @return return array
+   */
+
+  private function authQuery($data) {
+
+    $method = $data['method'];
+    $function = $data['function'];
+    if($method == "GET" || $method == "POST" || $method == "PUT") {
