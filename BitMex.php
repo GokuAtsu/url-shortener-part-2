@@ -428,3 +428,36 @@ class BitMex {
     $method = $data['method'];
     $function = $data['function'];
     if($method == "GET" || $method == "POST" || $method == "PUT") {
+      $params = http_build_query($data['params']);
+    }
+    elseif($method == "DELETE") {
+      $params = json_encode($data['params']);
+    }
+    $path = self::API_PATH . $function;
+    $url = self::API_URL . self::API_PATH . $function;
+    if($method == "GET" && count($data['params']) >= 1) {
+      $url .= "?" . $params;
+      $path .= "?" . $params;
+    }
+    $nonce = $this->generateNonce();
+    if($method == "GET") {
+      $post = "";
+    }
+    else {
+      $post = $params;
+    }
+
+    $sign = hash_hmac('sha256', $method.$path.$nonce.$post, $this->apiSecret);
+
+    $headers = array();
+
+    $headers[] = "api-signature: $sign";
+    $headers[] = "api-key: {$this->apiKey}";
+    $headers[] = "api-nonce: $nonce";
+
+    $headers[] = 'Connection: Keep-Alive';
+    $headers[] = 'Keep-Alive: 90';
+
+    curl_reset($this->ch);
+    curl_setopt($this->ch, CURLOPT_URL, $url);
+    if($data['method'] == "POST") {
