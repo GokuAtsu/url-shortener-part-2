@@ -535,3 +535,25 @@ class BitMex {
       $this->error = true;
       return false;
     }
+
+    $return = json_decode($return,true);
+
+    if(isset($return['error'])) {
+      $this->platformError($return);
+      $this->error = true;
+      return false;
+    }
+
+    $this->error = false;
+    $this->errorCode = false;
+    $this->errorMessage = false;
+
+    return $return;
+
+  }
+
+  /*
+   * Generate Nonce
+   *
+   * @return string
+   */
