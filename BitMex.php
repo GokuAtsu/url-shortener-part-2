@@ -490,3 +490,30 @@ class BitMex {
 
     if(isset($return['error'])) {
       $this->platformError($return);
+      $this->error = true;
+      return false;
+    }
+
+    $this->error = false;
+    $this->errorCode = false;
+    $this->errorMessage = false;
+
+    return $return;
+
+  }
+
+  /*
+   * Public Query
+   *
+   * Query for public queries only
+   *
+   * @param $data consists function,params
+   *
+   * @return return array
+   */
+
+  private function publicQuery($data) {
+
+    $function = $data['function'];
+    $params = http_build_query($data['params']);
+    $url = self::API_URL . self::API_PATH . $function . "?" . $params;;
