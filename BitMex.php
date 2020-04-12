@@ -577,3 +577,34 @@ class BitMex {
     $this->ch = curl_init();
 
   }
+
+  /*
+   * Curl Error
+   *
+   * @return false
+   */
+
+  private function curlError() {
+
+    if ($errno = curl_errno($this->ch)) {
+      $this->errorCode = $errno;
+      $errorMessage = curl_strerror($errno);
+      $this->errorMessage = $errorMessage;
+      if($this->printErrors) echo "cURL error ({$errno}) : {$errorMessage}\n";
+      return true;
+    }
+
+    return false;
+  }
+
+  /*
+   * Platform Error
+   *
+   * @return false
+   */
+
+  private function platformError($return) {
+
+    $this->errorCode = $return['error']['name'];
+    $this->errorMessage = $return['error']['message'];
+    if($this->printErrors) echo "BitMex error ({$return['error']['name']}) : {$return['error']['message']}\n";
