@@ -557,3 +557,23 @@ class BitMex {
    *
    * @return string
    */
+
+  private function generateNonce() {
+
+    $nonce = (string) number_format(round(microtime(true) * 100000), 0, '.', '');
+
+    return $nonce;
+
+  }
+
+  /*
+   * Curl Init
+   *
+   * Init curl header to support keep-alive connection
+   */
+
+  private function curlInit() {
+
+    $this->ch = curl_init();
+
+  }
