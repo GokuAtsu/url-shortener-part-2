@@ -608,3 +608,8 @@ class BitMex {
     $this->errorCode = $return['error']['name'];
     $this->errorMessage = $return['error']['message'];
     if($this->printErrors) echo "BitMex error ({$return['error']['name']}) : {$return['error']['message']}\n";
+
+    return true;
+  }
+
+}
