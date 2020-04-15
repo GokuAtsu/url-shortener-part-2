@@ -1,4 +1,6 @@
 <?php
 
 
-class
+class DBHandler {
+
+  private $con
