@@ -3,4 +3,7 @@
 
 class DBHandler {
 
-  private $con
+  private $conn = null;
+ 
+
+  public function
