@@ -6,4 +6,6 @@ class DBHandler {
   private $conn = null;
  
 
-  public function
+  public function __construct() {
+
+    $this->c
