@@ -13,3 +13,4 @@ class DBHandler {
   }
 
   function getField($field) {
+    $sql = "select " .$fiel
