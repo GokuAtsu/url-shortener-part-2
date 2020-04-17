@@ -8,4 +8,4 @@ class DBHandler {
 
   public function __construct() {
 
-    $this->c
+    $this->conn = new mysqli("localhost", "root
