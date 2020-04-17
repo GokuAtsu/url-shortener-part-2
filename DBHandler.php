@@ -12,4 +12,4 @@ class DBHandler {
 
   }
 
-  
+  function getField($field) {
