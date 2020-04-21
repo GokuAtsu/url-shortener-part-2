@@ -13,4 +13,5 @@ class DBHandler {
   }
 
   function getField($field) {
-    $sql = "select " .$field ." from posizione_aperta w
+    $sql = "select " .$field ." from posizione_aperta where indice = 0";
+ 
