@@ -14,4 +14,4 @@ class DBHandler {
 
   function getField($field) {
     $sql = "select " .$field ." from posizione_aperta where indice = 0";
-    return $this->conn->query($s
+    return $this->conn->query($sql)->fetch_assoc()[$fie
