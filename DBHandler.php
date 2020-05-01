@@ -19,4 +19,4 @@ class DBHandler {
 
   function updateField($field, $numero){
     $sql = "update posizione_aperta set " .$field ." = " .$numero ." where indice = 0";
-    
+    if($this->conn->query($sql) == true
