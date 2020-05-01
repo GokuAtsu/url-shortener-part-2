@@ -17,4 +17,5 @@ class DBHandler {
     return $this->conn->query($sql)->fetch_assoc()[$field];
   }
 
-  function updateField($field, $n
+  function updateField($field, $numero){
+    $sql = "upd
