@@ -17,4 +17,4 @@ class DBHandler {
     return $this->conn->query($sql)->fetch_assoc()[$field];
   }
 
-  funct
+  function updateField($field, $n
