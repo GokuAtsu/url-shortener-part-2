@@ -18,4 +18,4 @@ class DBHandler {
   }
 
   function updateField($field, $numero){
-    $sql = "upd
+    $sql = "update posizione_aperta set " .
