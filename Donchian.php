@@ -4,4 +4,5 @@
 class Donchian {
 
   private $PERIODI = 16;
-  private $TI
+  private $TIMEFRAME = "1h";
+  privat
