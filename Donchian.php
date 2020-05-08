@@ -5,4 +5,6 @@ class Donchian {
 
   private $PERIODI = 16;
   private $TIMEFRAME = "1h";
-  privat
+  private $bitmex;
+
+  public function __co
