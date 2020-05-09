@@ -7,4 +7,6 @@ class Donchian {
   private $TIMEFRAME = "1h";
   private $bitmex;
 
-  public function __co
+  public function __construct($bitmex) {
+
+    $this
