@@ -13,4 +13,5 @@ class Donchian {
 
   }
 
-  public function g
+  public function getBandaH(){
+    $candele
