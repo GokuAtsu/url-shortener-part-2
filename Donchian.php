@@ -9,4 +9,8 @@ class Donchian {
 
   public function __construct($bitmex) {
 
-    $this->bitmex = $bitmex
+    $this->bitmex = $bitmex;
+
+  }
+
+  public function g
