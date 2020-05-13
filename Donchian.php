@@ -14,4 +14,5 @@ class Donchian {
   }
 
   public function getBandaH(){
-    $candele = $this->bitmex->getCandles($this->TIMEFRAME, $this->PERI
+    $candele = $this->bitmex->getCandles($this->TIMEFRAME, $this->PERIODI);
+    $bandaH = $
