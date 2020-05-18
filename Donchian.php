@@ -18,4 +18,4 @@ class Donchian {
     $bandaH = $candele[0]['high'];
 
     for($i=0; $i<count($candele); $i++){
-      if($candele
+      if($candele[$i]['high'] > $bandaH){
