@@ -24,4 +24,8 @@ class Donchian {
       
     }
 
-    r
+    return floatval($bandaH);
+
+  }
+
+  pub
