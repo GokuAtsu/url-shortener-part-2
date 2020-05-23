@@ -28,4 +28,4 @@ class Donchian {
 
   }
 
-  pub
+  public function getB
