@@ -29,4 +29,4 @@ class Donchian {
   }
 
   public function getBandaL(){
-    $candele = $this->bit
+    $candele = $this->bitmex->getCandles($this->TIMEFR
