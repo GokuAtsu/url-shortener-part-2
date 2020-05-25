@@ -28,4 +28,5 @@ class Donchian {
 
   }
 
-  public function getB
+  public function getBandaL(){
+    $candele = $this->bit
