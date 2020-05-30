@@ -30,4 +30,5 @@ class Donchian {
 
   public function getBandaL(){
     $candele = $this->bitmex->getCandles($this->TIMEFRAME, $this->PERIODI);
-    $banda
+    $bandaL = $candele[0]['low'];
+
