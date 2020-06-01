@@ -32,3 +32,4 @@ class Donchian {
     $candele = $this->bitmex->getCandles($this->TIMEFRAME, $this->PERIODI);
     $bandaL = $candele[0]['low'];
 
+    for($i=0; $i<count($candel
