@@ -34,4 +34,7 @@ class Donchian {
 
     for($i=0; $i<count($candele); $i++){
       if($candele[$i]['low'] < $bandaL){
-          $bandaL = $candele[$i]['low'
+          $bandaL = $candele[$i]['low'];
+      }
+      
+    }
