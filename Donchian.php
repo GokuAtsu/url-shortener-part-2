@@ -39,4 +39,8 @@ class Donchian {
       
     }
 
-    return floatval($band
+    return floatval($bandaL);
+
+  }
+
+  public functi
