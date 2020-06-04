@@ -38,3 +38,5 @@ class Donchian {
       }
       
     }
+
+    return floatval($band
