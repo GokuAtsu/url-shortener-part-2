@@ -43,4 +43,5 @@ class Donchian {
 
   }
 
-  public functi
+  public function getBandWidth(){
+    
