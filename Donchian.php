@@ -44,4 +44,4 @@ class Donchian {
   }
 
   public function getBandWidth(){
-    
+    return ( 1.0- ($this->getBanda
