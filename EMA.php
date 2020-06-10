@@ -1,4 +1,6 @@
 <?php
 
 
-c
+class EMA {
+
+  private $PERI
