@@ -9,4 +9,4 @@ class EMA {
   public function isPositive(){
     $arrayEMA = $this->exponentialMovingAverage();
 
-    if($ar
+    if($arrayEMA[0] > $arrayEMA[1]){
