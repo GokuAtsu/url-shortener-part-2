@@ -10,3 +10,6 @@ class EMA {
     $arrayEMA = $this->exponentialMovingAverage();
 
     if($arrayEMA[0] > $arrayEMA[1]){
+      return true;
+    }
+    
