@@ -6,4 +6,5 @@ class EMA {
   private $PERIODI;
   private $CANDLES;
 
-  publ
+  public function isPositive(){
+ 
