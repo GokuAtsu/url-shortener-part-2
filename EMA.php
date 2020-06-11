@@ -15,4 +15,4 @@ class EMA {
     return false;
   }
 
-  public
+  public function getLastValu
