@@ -12,4 +12,7 @@ class EMA {
     if($arrayEMA[0] > $arrayEMA[1]){
       return true;
     }
-    
+    return false;
+  }
+
+  public
