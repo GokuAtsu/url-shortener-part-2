@@ -7,4 +7,6 @@ class EMA {
   private $CANDLES;
 
   public function isPositive(){
-    $arrayEMA = $this->exponent
+    $arrayEMA = $this->exponentialMovingAverage();
+
+    if($ar
