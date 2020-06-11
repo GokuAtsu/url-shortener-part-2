@@ -15,4 +15,5 @@ class EMA {
     return false;
   }
 
-  public function getLastValu
+  public function getLastValue(){
+    $arrayEMA = $this->
