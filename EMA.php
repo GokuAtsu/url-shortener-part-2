@@ -3,4 +3,7 @@
 
 class EMA {
 
-  private $PERI
+  private $PERIODI;
+  private $CANDLES;
+
+  publ
