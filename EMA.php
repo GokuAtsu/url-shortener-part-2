@@ -18,3 +18,6 @@ class EMA {
   public function getLastValue(){
     $arrayEMA = $this->exponentialMovingAverage();
     return $arrayEMA[0];
+  }
+
+  public function expone
