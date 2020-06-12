@@ -16,4 +16,4 @@ class EMA {
   }
 
   public function getLastValue(){
-    $arrayEMA = $this->
+    $arrayEMA = $this->exponentialMovingAverage();
