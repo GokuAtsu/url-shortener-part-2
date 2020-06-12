@@ -20,4 +20,4 @@ class EMA {
     return $arrayEMA[0];
   }
 
-  public function expone
+  public function exponentialMovingAverage(): array
