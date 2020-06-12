@@ -22,4 +22,5 @@ class EMA {
 
   public function exponentialMovingAverage(): array
   {
-    $numbers = $t
+    $numbers = $this->CANDLES;
+    $n = $th
