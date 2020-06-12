@@ -25,4 +25,5 @@ class EMA {
     $numbers = $this->CANDLES;
     $n = $this->PERIODI;
 
-    $numbers=array_rever
+    $numbers=array_reverse($numbers);
+    $m   = 
