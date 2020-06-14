@@ -27,4 +27,5 @@ class EMA {
 
     $numbers=array_reverse($numbers);
     $m   = count($numbers);
-    $α
+    $α   = 2 / ($n + 1);
+    $EMA
