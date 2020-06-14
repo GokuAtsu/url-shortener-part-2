@@ -26,4 +26,5 @@ class EMA {
     $n = $this->PERIODI;
 
     $numbers=array_reverse($numbers);
-    $m   = 
+    $m   = count($numbers);
+    $α
