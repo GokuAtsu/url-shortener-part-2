@@ -30,4 +30,4 @@ class EMA {
     $α   = 2 / ($n + 1);
     $EMA = [];
 
-    // Start off
+    // Start off by seeding with the first data 
