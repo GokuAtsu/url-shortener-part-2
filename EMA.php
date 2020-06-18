@@ -31,4 +31,6 @@ class EMA {
     $EMA = [];
 
     // Start off by seeding with the first data point
-    $EMA[] = $numbers[0]['clos
+    $EMA[] = $numbers[0]['close'];
+
+    // Each day aft
