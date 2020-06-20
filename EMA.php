@@ -33,4 +33,4 @@ class EMA {
     // Start off by seeding with the first data point
     $EMA[] = $numbers[0]['close'];
 
-    // Each day aft
+    // Each day after: EMAtoday = α⋅xtoday + (1-α
