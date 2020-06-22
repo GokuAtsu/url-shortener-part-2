@@ -35,4 +35,4 @@ class EMA {
 
     // Each day after: EMAtoday = α⋅xtoday + (1-α)EMAyesterday
     for ($i = 1; $i < $m; $i++) {
-        $EMA[
+        $EMA[] = ($α * $numbers[$i]['c
