@@ -37,4 +37,5 @@ class EMA {
     for ($i = 1; $i < $m; $i++) {
         $EMA[] = ($α * $numbers[$i]['close']) + ((1 - $α) * $EMA[$i - 1]);
     }
-    $EMA
+    $EMA=array_reverse($EMA);
+ 
