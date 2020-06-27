@@ -41,4 +41,6 @@ class EMA {
     return $EMA;
   }
 
-  public function __construc
+  public function __construct($periodi, $candles) {
+
+    
