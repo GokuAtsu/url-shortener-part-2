@@ -41,4 +41,4 @@ class EMA {
     return $EMA;
   }
 
-  publ
+  public function __construc
