@@ -43,4 +43,4 @@ class EMA {
 
   public function __construct($periodi, $candles) {
 
-    
+    $this->PERIODI = $peri
