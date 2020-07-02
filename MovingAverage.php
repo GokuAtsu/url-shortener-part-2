@@ -35,3 +35,30 @@ class MovingAverage {
   public function getLastTwoValues() {
 
     $candele = $this->CANDLES;
+
+    $somma = 0; 
+
+    for($i=0; $i<($this->PERIODI); $i++){
+      $somma += $candele[$i]['close'];
+    }   
+
+    $media1 = $somma/(($this->PERIODI));
+
+
+    $somma = 0; 
+    for($i=1; $i<(($this->PERIODI)+1); $i++){
+      $somma += $candele[$i]['close'];
+
+    }
+
+    $media2 = $somma/(($this->PERIODI));
+    
+
+    $stack = array(floatval($media1), floatval($media2));
+    return $stack;
+
+  }
+
+  public function __construct($periodi, $candles) {
+
+    $this->PERIODI = $periodi;
