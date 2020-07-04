@@ -62,3 +62,11 @@ class MovingAverage {
   public function __construct($periodi, $candles) {
 
     $this->PERIODI = $periodi;
+    $this->CANDLES = $candles;
+
+
+  }
+ 
+}
+
+?>
