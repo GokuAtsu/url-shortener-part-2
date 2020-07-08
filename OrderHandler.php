@@ -5,4 +5,4 @@ class OrderHandler {
 
   private $bitmex;
 
-  public fu
+  public function __constru
