@@ -5,4 +5,6 @@ class OrderHandler {
 
   private $bitmex;
 
-  public function __constru
+  public function __construct($bitmex) {
+
+    $this->bitmex = 
