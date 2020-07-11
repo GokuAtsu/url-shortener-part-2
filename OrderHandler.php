@@ -7,4 +7,8 @@ class OrderHandler {
 
   public function __construct($bitmex) {
 
-    $this->bitmex = 
+    $this->bitmex = $bitmex;
+
+  }
+
+  public funct
