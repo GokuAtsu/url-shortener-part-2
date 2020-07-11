@@ -11,4 +11,5 @@ class OrderHandler {
 
   }
 
-  public funct
+  public function isShort(){
+    $posizioniApe
