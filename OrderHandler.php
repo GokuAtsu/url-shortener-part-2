@@ -12,4 +12,4 @@ class OrderHandler {
   }
 
   public function isShort(){
-    $posizioniApe
+    $posizioniAperte = $this->bitmex->getOpe
