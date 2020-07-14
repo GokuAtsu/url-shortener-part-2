@@ -14,4 +14,4 @@ class OrderHandler {
   public function isShort(){
     $posizioniAperte = $this->bitmex->getOpenPositions();
 
-    if(count($posizioniAperte) > 0 && in
+    if(count($posizioniAperte) > 0 && intval($posizioniAperte[0]['cu
