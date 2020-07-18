@@ -21,4 +21,5 @@ class OrderHandler {
     return false;
   }
 
-  public
+  public function isLong(){
+    $p
