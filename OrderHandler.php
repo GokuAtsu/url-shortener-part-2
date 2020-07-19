@@ -22,4 +22,4 @@ class OrderHandler {
   }
 
   public function isLong(){
-    $p
+    $posizioniAperte = $this->bitmex
