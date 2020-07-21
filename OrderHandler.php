@@ -22,4 +22,6 @@ class OrderHandler {
   }
 
   public function isLong(){
-    $posizioniAperte = $this->bitmex
+    $posizioniAperte = $this->bitmex->getOpenPositions();
+
+    
