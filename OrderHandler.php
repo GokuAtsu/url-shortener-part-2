@@ -24,4 +24,4 @@ class OrderHandler {
   public function isLong(){
     $posizioniAperte = $this->bitmex->getOpenPositions();
 
-    if(count($posizioniAperte) 
+    if(count($posizioniAperte) > 0 && intval($posizioniAperte[0][
