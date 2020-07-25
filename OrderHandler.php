@@ -25,4 +25,7 @@ class OrderHandler {
     $posizioniAperte = $this->bitmex->getOpenPositions();
 
     if(count($posizioniAperte) > 0 && intval($posizioniAperte[0]['currentQty']) > 0){
-      re
+      return true;
+
+    }
+    return 
