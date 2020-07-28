@@ -32,4 +32,5 @@ class OrderHandler {
 
   }
 
-  pub
+  public function noPositions(){
+    $posizi
