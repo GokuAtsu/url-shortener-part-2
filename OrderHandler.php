@@ -33,4 +33,4 @@ class OrderHandler {
   }
 
   public function noPositions(){
-    $posizi
+    $posizioniAperte = $this->
