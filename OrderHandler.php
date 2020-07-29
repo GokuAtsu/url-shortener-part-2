@@ -33,4 +33,4 @@ class OrderHandler {
   }
 
   public function noPositions(){
-    $posizioniAperte = $this->
+    $posizioniAperte = $this->bitmex->getOpenPositions
