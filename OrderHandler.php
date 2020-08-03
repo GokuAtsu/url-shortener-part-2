@@ -35,4 +35,5 @@ class OrderHandler {
   public function noPositions(){
     $posizioniAperte = $this->bitmex->getOpenPositions();
 
-    if(count($posizio
+    if(count($posizioniAperte) > 0){
+      ret
