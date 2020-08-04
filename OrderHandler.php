@@ -43,4 +43,5 @@ class OrderHandler {
 
   }
 
-  public fu
+  public function noOrders(){
+    $
