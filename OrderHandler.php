@@ -44,4 +44,6 @@ class OrderHandler {
   }
 
   public function noOrders(){
-    $ordiniAperti = $this->bitmex->getO
+    $ordiniAperti = $this->bitmex->getOpenOrders();
+
+    if(co
