@@ -54,4 +54,5 @@ class OrderHandler {
 
   }
 
-  public function i
+  public function isPartiallyFilled(){
+    
