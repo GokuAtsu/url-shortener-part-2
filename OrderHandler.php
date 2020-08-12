@@ -56,4 +56,4 @@ class OrderHandler {
 
   public function isPartiallyFilled(){
     $posizioniAperte = $this->bitmex->getOpenPositions();
-    $or
+    $ordiniAperti = $this->bitmex
