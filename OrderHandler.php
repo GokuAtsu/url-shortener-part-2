@@ -67,4 +67,4 @@ class OrderHandler {
 
   }
 
-  public
+  public function openLong($prezzo
