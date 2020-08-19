@@ -67,4 +67,5 @@ class OrderHandler {
 
   }
 
-  public function openLong($prezzoAcq, $contrattiAcq
+  public function openLong($prezzoAcq, $contrattiAcq, $leva){
+    $this->bi
