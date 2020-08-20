@@ -69,4 +69,4 @@ class OrderHandler {
 
   public function openLong($prezzoAcq, $contrattiAcq, $leva){
     $this->bitmex->setLeverage($leva);
-    $t
+    $this->bitmex->createOrder("Limi
