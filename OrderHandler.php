@@ -73,4 +73,4 @@ class OrderHandler {
   
   }
 
-  public function openShort($
+  public function openShort($prezzoAcq, $contrattiAcq,
