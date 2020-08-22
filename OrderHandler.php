@@ -73,4 +73,4 @@ class OrderHandler {
   
   }
 
-  public
+  public function openShort($
