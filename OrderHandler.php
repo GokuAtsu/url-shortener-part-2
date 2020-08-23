@@ -73,4 +73,5 @@ class OrderHandler {
   
   }
 
-  public function openShort($prezzoAcq, $contrattiAcq,
+  public function openShort($prezzoAcq, $contrattiAcq, $leva){
+    $this->bitme
