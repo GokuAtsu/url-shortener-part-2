@@ -75,4 +75,8 @@ class OrderHandler {
 
   public function openShort($prezzoAcq, $contrattiAcq, $leva){
     $this->bitmex->setLeverage($leva);
-    $this->bitmex->createOrder("Limit", "Sell", $prezzoAcq, $c
+    $this->bitmex->createOrder("Limit", "Sell", $prezzoAcq, $contrattiAcq);
+  
+  }
+
+  public f
