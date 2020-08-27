@@ -79,4 +79,5 @@ class OrderHandler {
   
   }
 
-  public f
+  public function closeAll(){
+    $po
