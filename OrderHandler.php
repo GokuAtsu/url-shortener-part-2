@@ -80,4 +80,4 @@ class OrderHandler {
   }
 
   public function closeAll(){
-    $po
+    $posizioniAperte = $this-
