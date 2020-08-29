@@ -81,4 +81,4 @@ class OrderHandler {
 
   public function closeAll(){
     $posizioniAperte = $this->bitmex->getOpenPositions();
-    $ordiniAper
+    $ordiniAperti = $this->bitme
