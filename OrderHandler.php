@@ -83,4 +83,5 @@ class OrderHandler {
     $posizioniAperte = $this->bitmex->getOpenPositions();
     $ordiniAperti = $this->bitmex->getOpenOrders();
 
-    if(count
+    if(count($ordiniAperti)>0){
+      $thi
