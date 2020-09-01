@@ -84,4 +84,4 @@ class OrderHandler {
     $ordiniAperti = $this->bitmex->getOpenOrders();
 
     if(count($ordiniAperti)>0){
-      $thi
+      $this->bitmex->cancelAllOp
