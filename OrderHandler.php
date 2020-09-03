@@ -87,4 +87,4 @@ class OrderHandler {
       $this->bitmex->cancelAllOpenOrders();
     }
     if(count($posizioniAperte)>0){
-      $this-
+      $this->bitmex->closePosition(nul
