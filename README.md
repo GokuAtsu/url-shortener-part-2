@@ -1,2 +1,2 @@
 # bitmex_bot
-A bitmex layer for
+A bitmex layer for automatic tradin
