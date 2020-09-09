@@ -1,2 +1,2 @@
 # bitmex_bot
-A bitmex layer for automatic tradin
+A bitmex layer for automatic trading
