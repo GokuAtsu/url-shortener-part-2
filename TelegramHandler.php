@@ -6,4 +6,6 @@ include('vendor/autoload.php');
 
 class TelegramHandler {
 
-  public function sendTelegramMessage($textMessa
+  public function sendTelegramMessage($textMessage){
+
+    $loop = \React\Eve
