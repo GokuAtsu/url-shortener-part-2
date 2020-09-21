@@ -6,4 +6,4 @@ include('vendor/autoload.php');
 
 class TelegramHandler {
 
-  public funct
+  public function sendTelegramMessage($textMessa
