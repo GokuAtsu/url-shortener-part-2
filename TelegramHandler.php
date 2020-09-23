@@ -8,4 +8,5 @@ class TelegramHandler {
 
   public function sendTelegramMessage($textMessage){
 
-    $loop = \React\Eve
+    $loop = \React\EventLoop\Factory::create();
+   
