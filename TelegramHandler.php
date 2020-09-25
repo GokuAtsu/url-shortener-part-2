@@ -9,4 +9,5 @@ class TelegramHandler {
   public function sendTelegramMessage($textMessage){
 
     $loop = \React\EventLoop\Factory::create();
-    $handler = new HttpClientRe
+    $handler = new HttpClientRequestHandler($loop);
+    
