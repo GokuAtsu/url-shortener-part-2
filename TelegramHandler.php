@@ -11,3 +11,4 @@ class TelegramHandler {
     $loop = \React\EventLoop\Factory::create();
     $handler = new HttpClientRequestHandler($loop);
     
+    //INSERT YOUR BOT A
