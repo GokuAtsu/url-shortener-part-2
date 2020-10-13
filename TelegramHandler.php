@@ -12,4 +12,7 @@ class TelegramHandler {
     $handler = new HttpClientRequestHandler($loop);
     
     //INSERT YOUR BOT API HERE
-    $tgLog = ne
+    $tgLog = new TgLog("", $handler);
+
+
+    $
