@@ -15,4 +15,4 @@ class TelegramHandler {
     $tgLog = new TgLog("", $handler);
 
 
-    $
+    $sendMessage = new SendMes
