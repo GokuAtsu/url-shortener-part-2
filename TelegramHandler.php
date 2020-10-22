@@ -20,4 +20,5 @@ class TelegramHandler {
     $sendMessage->chat_id = 0;
     $sendMessage->text = $textMessage;
 
-    $tgLog->performApiRequest($sendMe
+    $tgLog->performApiRequest($sendMessage);
+    $loop->ru
