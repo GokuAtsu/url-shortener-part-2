@@ -18,4 +18,4 @@ class TelegramHandler {
     $sendMessage = new SendMessage();
     //INSERT YOUR CHAT ID HERE
     $sendMessage->chat_id = 0;
-    $s
+    $sendMessage->text = $text
