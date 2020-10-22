@@ -21,4 +21,9 @@ class TelegramHandler {
     $sendMessage->text = $textMessage;
 
     $tgLog->performApiRequest($sendMessage);
-    $loop->ru
+    $loop->run();
+  }
+
+}
+
+?>
