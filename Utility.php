@@ -3,4 +3,4 @@
 class Utility {
 
 
-  public f
+  public function __construct() {
