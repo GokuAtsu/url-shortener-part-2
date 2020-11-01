@@ -9,4 +9,4 @@ class Utility {
 
   }
 
-  public function t
+  public function threeCandlesLong($perio
