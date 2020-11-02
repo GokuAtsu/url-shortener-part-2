@@ -11,4 +11,5 @@ class Utility {
 
   public function threeCandlesLong($periodi, $candles){
     $subArray = array();
-    $tem
+    $tempArray = $candles;
+    $
