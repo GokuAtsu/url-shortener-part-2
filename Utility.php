@@ -12,4 +12,6 @@ class Utility {
   public function threeCandlesLong($periodi, $candles){
     $subArray = array();
     $tempArray = $candles;
-    $
+    $firstPositive = "-1";
+
+ 
