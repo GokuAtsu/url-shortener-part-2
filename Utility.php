@@ -14,4 +14,4 @@ class Utility {
     $tempArray = $candles;
     $firstPositive = "-1";
 
- 
+    for ($i = 0; $i < coun
