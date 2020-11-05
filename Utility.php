@@ -15,4 +15,4 @@ class Utility {
     $firstPositive = "-1";
 
     for ($i = 0; $i < count($candles); $i++) {
-        $t
+        $tmp_MA = new EMA($periodi, $tem
