@@ -17,4 +17,5 @@ class Utility {
     for ($i = 0; $i < count($candles); $i++) {
         $tmp_MA = new EMA($periodi, $tempArray);
 
-        if (!($tmp_MA->isPositive())) 
+        if (!($tmp_MA->isPositive())) {
+            if ($fir
