@@ -19,3 +19,4 @@ class Utility {
 
         if (!($tmp_MA->isPositive())) {
             if ($firstPositive == "-1") {
+                $firstPositive 
