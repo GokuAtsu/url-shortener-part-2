@@ -23,4 +23,4 @@ class Utility {
             } else if ($firstPositive == "1") {
                 break;
             }
-            array_push(
+            array_push($subArray, $candles[$i]);
