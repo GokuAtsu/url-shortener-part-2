@@ -26,4 +26,4 @@ class Utility {
             array_push($subArray, $candles[$i]);
 
         } else {
-  
+            if ($firstPo
