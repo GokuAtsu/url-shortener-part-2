@@ -26,4 +26,5 @@ class Utility {
             array_push($subArray, $candles[$i]);
 
         } else {
-            if ($firstPo
+            if ($firstPositive == "-1") {
+             
