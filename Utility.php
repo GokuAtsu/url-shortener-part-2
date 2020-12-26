@@ -29,4 +29,5 @@ class Utility {
             if ($firstPositive == "-1") {
                 $firstPositive = "1";
             } else if ($firstPositive == "0") {
- 
+                break;
+      
