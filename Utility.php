@@ -28,4 +28,5 @@ class Utility {
         } else {
             if ($firstPositive == "-1") {
                 $firstPositive = "1";
-            } else if ($first
+            } else if ($firstPositive == "0") {
+ 
