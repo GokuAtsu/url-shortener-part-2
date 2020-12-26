@@ -30,4 +30,6 @@ class Utility {
                 $firstPositive = "1";
             } else if ($firstPositive == "0") {
                 break;
-      
+            }
+
+            arra
