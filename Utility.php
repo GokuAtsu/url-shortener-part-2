@@ -32,4 +32,4 @@ class Utility {
                 break;
             }
 
-            arra
+            array_push($subArray, $candles[$i]
