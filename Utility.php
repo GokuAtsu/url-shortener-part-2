@@ -36,4 +36,5 @@ class Utility {
 
         }
 
-        array_
+        array_shift($tempArray);
+    }
