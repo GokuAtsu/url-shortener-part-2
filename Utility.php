@@ -39,4 +39,5 @@ class Utility {
         array_shift($tempArray);
     }
 
-    $candeleP = 1
+    $candeleP = 1;
+    for ($i = 0; $i < (
