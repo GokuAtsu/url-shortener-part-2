@@ -38,3 +38,5 @@ class Utility {
 
         array_shift($tempArray);
     }
+
+    $candeleP = 1
