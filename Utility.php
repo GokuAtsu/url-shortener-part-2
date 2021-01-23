@@ -41,4 +41,4 @@ class Utility {
 
     $candeleP = 1;
     for ($i = 0; $i < (count($subArray)-1); $i++) {  
-      if ($subArray[$i]['close'] > $
+      if ($subArray[$i]['close'] > $subArray[$i]['open'] && $s
