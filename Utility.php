@@ -46,3 +46,5 @@ class Utility {
         } else {
             $candeleP = 1;
         }
+
+        if ($candeleP == 3) 
