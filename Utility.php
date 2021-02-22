@@ -49,4 +49,7 @@ class Utility {
 
         if ($candeleP == 3) {
             return true;
-      
+        }
+    }
+
+    return f
