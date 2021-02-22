@@ -55,4 +55,5 @@ class Utility {
     return false;
   }
 
-  public function threeCandlesShort($periodi, $candl
+  public function threeCandlesShort($periodi, $candles){
+    $subArray = array
