@@ -55,4 +55,4 @@ class Utility {
     return false;
   }
 
-  public function thr
+  public function threeCandlesShort($periodi, $candl
