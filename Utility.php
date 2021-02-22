@@ -52,4 +52,7 @@ class Utility {
         }
     }
 
-    return f
+    return false;
+  }
+
+  public function thr
