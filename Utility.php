@@ -58,4 +58,6 @@ class Utility {
   public function threeCandlesShort($periodi, $candles){
     $subArray = array();
     $tempArray = $candles;
-    $firstPosi
+    $firstPositive = "-1";
+
+    for ($i = 0; $
