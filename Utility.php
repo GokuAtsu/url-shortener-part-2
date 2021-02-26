@@ -60,4 +60,5 @@ class Utility {
     $tempArray = $candles;
     $firstPositive = "-1";
 
-    for ($i = 0; $i < count($candles); $i++
+    for ($i = 0; $i < count($candles); $i++) {
+        $tmp_MA = new
