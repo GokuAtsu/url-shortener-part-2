@@ -64,4 +64,5 @@ class Utility {
         $tmp_MA = new EMA($periodi, $tempArray);
 
         if (!($tmp_MA->isPositive())) {
-            if ($firstP
+            if ($firstPositive == "-1") {
+   
