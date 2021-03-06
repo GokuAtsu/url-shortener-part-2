@@ -68,4 +68,5 @@ class Utility {
                 $firstPositive = "0";
             } else if ($firstPositive == "1") {
                 break;
-           
+            }
+            array_push($
