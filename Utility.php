@@ -72,4 +72,5 @@ class Utility {
             array_push($subArray, $candles[$i]);
 
         } else {
-            if ($firstPositive =
+            if ($firstPositive == "-1") {
+                $
