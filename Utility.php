@@ -73,4 +73,5 @@ class Utility {
 
         } else {
             if ($firstPositive == "-1") {
-                $
+                $firstPositive = "1";
+          
