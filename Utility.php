@@ -78,4 +78,8 @@ class Utility {
                 break;
             }
 
-            array_push($subArray, $c
+            array_push($subArray, $candles[$i]);
+
+        }
+
+        
