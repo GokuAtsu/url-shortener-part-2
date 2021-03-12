@@ -82,4 +82,4 @@ class Utility {
 
         }
 
-        
+        array_shift($tempArray
