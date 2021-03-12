@@ -78,4 +78,4 @@ class Utility {
                 break;
             }
 
-        
+            array_push($subArray, $c
