@@ -82,4 +82,7 @@ class Utility {
 
         }
 
-        array_shift($tempArray
+        array_shift($tempArray);
+    }
+
+    $cande
