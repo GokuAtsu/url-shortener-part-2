@@ -87,4 +87,4 @@ class Utility {
 
     $candeleP = 1;
     for ($i = 0; $i < (count($subArray)-1); $i++) {
-        if 
+        if ($subArray[$i]['close
