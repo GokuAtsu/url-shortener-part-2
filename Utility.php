@@ -90,4 +90,7 @@ class Utility {
         if ($subArray[$i]['close'] < $subArray[$i]['open'] && $subArray[$i]['close'] < $subArray[$i+1]['close']) {
           $candeleP += 1;
         } else {
-            $c
+            $candeleP = 1;
+        }
+
+    
