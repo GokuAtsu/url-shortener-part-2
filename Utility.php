@@ -101,4 +101,4 @@ class Utility {
     return false;
   }
 
-  public functio
+  public function setupLong($AMA8, $AMA13, $AM
