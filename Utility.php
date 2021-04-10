@@ -101,4 +101,5 @@ class Utility {
     return false;
   }
 
-  public function setupLong($AMA8, $AMA13, $AM
+  public function setupLong($AMA8, $AMA13, $AMA21){
+    $val8 = $AMA8->getLa
