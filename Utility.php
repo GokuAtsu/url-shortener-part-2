@@ -103,4 +103,5 @@ class Utility {
 
   public function setupLong($AMA8, $AMA13, $AMA21){
     $val8 = $AMA8->getLastValue();
-    $val13 = $
+    $val13 = $AMA13->getLastValue();
+  
