@@ -104,4 +104,6 @@ class Utility {
   public function setupLong($AMA8, $AMA13, $AMA21){
     $val8 = $AMA8->getLastValue();
     $val13 = $AMA13->getLastValue();
-    $val21 = $AMA21->getLastValue
+    $val21 = $AMA21->getLastValue();
+
+    if(($val13/$val8) < 0.997
