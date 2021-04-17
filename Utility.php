@@ -108,4 +108,8 @@ class Utility {
 
     if(($val13/$val8) < 0.9975 && ($val21/$val13) < 0.9975){
       return true;
-    
+    }
+    return false;
+  }
+
+  pu
