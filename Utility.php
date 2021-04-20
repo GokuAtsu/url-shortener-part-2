@@ -113,4 +113,5 @@ class Utility {
   }
 
   public function setupShort($AMA8, $AMA13, $AMA21){
-    $val8 = $AMA8->getLastValue()
+    $val8 = $AMA8->getLastValue();
+    $val13 = $AMA1
