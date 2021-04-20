@@ -112,4 +112,5 @@ class Utility {
     return false;
   }
 
-  public function setupShor
+  public function setupShort($AMA8, $AMA13, $AMA21){
+    $val8
