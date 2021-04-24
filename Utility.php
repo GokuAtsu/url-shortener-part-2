@@ -118,4 +118,6 @@ class Utility {
     $val21 = $AMA21->getLastValue();
 
     if(($val8/$val13) < 0.9975 && ($val13/$val21) < 0.9975){
-      retur
+      return true;
+    }
+    ret
