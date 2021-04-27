@@ -120,4 +120,7 @@ class Utility {
     if(($val8/$val13) < 0.9975 && ($val13/$val21) < 0.9975){
       return true;
     }
-    ret
+    return false;
+  }
+
+  public function
