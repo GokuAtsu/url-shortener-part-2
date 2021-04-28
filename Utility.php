@@ -125,4 +125,6 @@ class Utility {
 
   public function buildAnchor($candles){
     $anchorArray = array();
-    $indexStart
+    $indexStart = false;
+
+    for($i=(count($cand
