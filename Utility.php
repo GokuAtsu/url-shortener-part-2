@@ -124,4 +124,5 @@ class Utility {
   }
 
   public function buildAnchor($candles){
-    $anchorArray 
+    $anchorArray = array();
+    $indexStart
