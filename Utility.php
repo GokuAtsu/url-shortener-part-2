@@ -123,4 +123,4 @@ class Utility {
     return false;
   }
 
-  public function
+  public function buildAnchor($candles){
