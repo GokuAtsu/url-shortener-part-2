@@ -127,4 +127,4 @@ class Utility {
     $anchorArray = array();
     $indexStart = false;
 
-    for($i=(count($cand
+    for($i=(count($candles)-1); $i>=0; $i--){
