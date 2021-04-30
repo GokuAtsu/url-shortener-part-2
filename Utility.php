@@ -133,4 +133,5 @@ class Utility {
         break;
       }
 
-      $ora = substr ($candles[$i]['timest
+      $ora = substr ($candles[$i]['timestamp'], 11, 2 );
+      if(!$indexS
