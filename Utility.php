@@ -128,3 +128,6 @@ class Utility {
     $indexStart = false;
 
     for($i=(count($candles)-1); $i>=0; $i--){
+
+      if($i<3){
+        bre
