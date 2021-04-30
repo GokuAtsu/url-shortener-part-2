@@ -133,4 +133,4 @@ class Utility {
         break;
       }
 
-      $ora
+      $ora = substr ($candles[$i]['timest
