@@ -134,4 +134,5 @@ class Utility {
       }
 
       $ora = substr ($candles[$i]['timestamp'], 11, 2 );
-      if(!$indexStart && ($ora == "03" || $ora == "07" || $ora == "11" || $ora == "15" || $ora == "19" || $ora == "23"))
+      if(!$indexStart && ($ora == "03" || $ora == "07" || $ora == "11" || $ora == "15" || $ora == "19" || $ora == "23")){
+        $indexStart = 
