@@ -138,4 +138,5 @@ class Utility {
         $indexStart = true;
       }
 
-     
+      if($indexStart){
+       
