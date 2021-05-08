@@ -139,4 +139,5 @@ class Utility {
       }
 
       if($indexStart){
-        $candela4h = array()
+        $candela4h = array();
+        $candela4h['ope
