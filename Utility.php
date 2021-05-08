@@ -140,4 +140,4 @@ class Utility {
 
       if($indexStart){
         $candela4h = array();
-        $candela4h['ope
+        $candela4h['open'] = $candles[$i]['ope
