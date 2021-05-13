@@ -143,3 +143,5 @@ class Utility {
         $candela4h['open'] = $candles[$i]['open'];
         $candela4h['close'] = $candles[$i-3]['close'];
         array_unshift($anchorArray, $candela4h);
+        $i = $i-3;
+ 
