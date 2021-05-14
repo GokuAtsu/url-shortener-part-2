@@ -148,4 +148,7 @@ class Utility {
 
     }
     
-    ret
+    return $anchorArray;
+  }
+
+  p
