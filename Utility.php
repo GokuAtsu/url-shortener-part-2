@@ -151,4 +151,4 @@ class Utility {
     return $anchorArray;
   }
 
-  p
+  public function engulfingCan
