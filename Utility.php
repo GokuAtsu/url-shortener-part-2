@@ -151,4 +151,5 @@ class Utility {
     return $anchorArray;
   }
 
-  public function engulfingCan
+  public function engulfingCandleLong($candles){
+    $MA21 = n
