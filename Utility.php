@@ -152,4 +152,6 @@ class Utility {
   }
 
   public function engulfingCandleLong($candles){
-    $MA21 = n
+    $MA21 = new EMA(21, $candles);
+
+    if($c
