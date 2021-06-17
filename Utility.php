@@ -161,4 +161,5 @@ class Utility {
         $diffOCPrev = $candles[1]['close'] - $candles[1]['open'];
         $diffHLPrev = $candles[1]['high'] - $candles[1]['low'];
 
-        if(abs($diffOCLast/$diffHLLast) >= 0.5 && abs($diffOCPrev/$diffHLPre
+        if(abs($diffOCLast/$diffHLLast) >= 0.5 && abs($diffOCPrev/$diffHLPrev) >= 0.5){
+          r
