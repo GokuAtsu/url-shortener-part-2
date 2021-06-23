@@ -164,3 +164,7 @@ class Utility {
         if(abs($diffOCLast/$diffHLLast) >= 0.5 && abs($diffOCPrev/$diffHLPrev) >= 0.5){
           return true;
         }
+      }
+    }
+
+    return 
