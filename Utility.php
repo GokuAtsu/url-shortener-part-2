@@ -167,4 +167,7 @@ class Utility {
       }
     }
 
-    return 
+    return false;
+  }
+
+  public func
