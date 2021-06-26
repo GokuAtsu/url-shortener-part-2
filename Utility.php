@@ -170,4 +170,4 @@ class Utility {
     return false;
   }
 
-  public function signalCandleShor
+  public function signalCandleShort($candles, $MA8, $MA13, $MA21)
