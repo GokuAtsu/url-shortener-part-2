@@ -170,4 +170,4 @@ class Utility {
     return false;
   }
 
-  public func
+  public function signalCandleShor
