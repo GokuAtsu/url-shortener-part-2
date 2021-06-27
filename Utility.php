@@ -171,4 +171,4 @@ class Utility {
   }
 
   public function signalCandleShort($candles, $MA8, $MA13, $MA21){
-    $diffOC = $candles[0]
+    $diffOC = $candles[0]['close'] - $candles[0]['o
