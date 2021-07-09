@@ -175,4 +175,4 @@ class Utility {
     $diffHL = $candles[0]['high'] - $candles[0]['low'];
     $diffCL = $candles[0]['close'] - $candles[0]['low'];
 
-   
+    if($candles[0]['open']
