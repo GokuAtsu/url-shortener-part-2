@@ -176,4 +176,5 @@ class Utility {
     $diffCL = $candles[0]['close'] - $candles[0]['low'];
 
     if($candles[0]['open'] > $MA8->getLastValue() && $candles[0]['open'] < $MA21->getLastValue()){
-      if($candles[0]['close'] < $MA8-
+      if($candles[0]['close'] < $MA8->getLastValue()){
+       
