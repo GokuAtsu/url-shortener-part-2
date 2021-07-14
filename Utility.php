@@ -178,4 +178,5 @@ class Utility {
     if($candles[0]['open'] > $MA8->getLastValue() && $candles[0]['open'] < $MA21->getLastValue()){
       if($candles[0]['close'] < $MA8->getLastValue()){
         if(abs($diffCL/$diffHL) <= 0.25 && abs($diffOC/$diffHL) >= 0.5){
-          r
+          return true;
+        }     
