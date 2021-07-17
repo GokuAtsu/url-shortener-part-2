@@ -187,4 +187,4 @@ class Utility {
 
   }
 
-  public function signalCandleL
+  public function signalCandleLong($candles, $MA8, $MA1
