@@ -187,4 +187,4 @@ class Utility {
 
   }
 
-  public fun
+  public function signalCandleL
