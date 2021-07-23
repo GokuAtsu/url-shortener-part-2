@@ -190,4 +190,6 @@ class Utility {
   public function signalCandleLong($candles, $MA8, $MA13, $MA21){
     $diffOC = $candles[0]['close'] - $candles[0]['open'];
     $diffHL = $candles[0]['high'] - $candles[0]['low'];
-    $diffCH = $candles[0]['close'] - $candles[0]
+    $diffCH = $candles[0]['close'] - $candles[0]['high'];
+
+    if($candle
