@@ -197,4 +197,7 @@ class Utility {
         if(abs($diffCH/$diffHL) <= 0.25 && abs($diffOC/$diffHL) >= 0.5){
           return true;
         }        
-    
+      }
+    }
+
+    return false;
