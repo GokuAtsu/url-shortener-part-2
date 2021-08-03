@@ -204,4 +204,4 @@ class Utility {
 
   }
 
-  public functi
+  public function engulfingCandleShort($candles){
