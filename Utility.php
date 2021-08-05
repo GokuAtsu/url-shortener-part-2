@@ -205,3 +205,4 @@ class Utility {
   }
 
   public function engulfingCandleShort($candles){
+    $MA21 = new EMA(21, $candles)
