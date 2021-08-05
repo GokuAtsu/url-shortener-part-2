@@ -207,4 +207,4 @@ class Utility {
   public function engulfingCandleShort($candles){
     $MA21 = new EMA(21, $candles);
 
-    if($candles[0]
+    if($candles[0]['close'] < $candles[0]['open']
