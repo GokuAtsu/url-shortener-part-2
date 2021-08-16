@@ -210,4 +210,4 @@ class Utility {
     if($candles[0]['close'] < $candles[0]['open'] && $candles[1]['close'] > $candles[1]['open'] && $candles[0]['open'] < $MA21->getLastValue()){
       if($candles[0]['open'] >= $candles[1]['close'] && $candles[0]['close'] < $candles[1]['open']){
         
-        $diffOCLa
+        $diffOCLast = $candles[0]['clo
