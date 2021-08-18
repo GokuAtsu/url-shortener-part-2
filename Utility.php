@@ -211,4 +211,4 @@ class Utility {
       if($candles[0]['open'] >= $candles[1]['close'] && $candles[0]['close'] < $candles[1]['open']){
         
         $diffOCLast = $candles[0]['close'] - $candles[0]['open'];
-        $diffHLLast = $c
+        $diffHLLast = $candles[0]['high'] - $candles[0]['low']
