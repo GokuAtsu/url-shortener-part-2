@@ -212,4 +212,5 @@ class Utility {
         
         $diffOCLast = $candles[0]['close'] - $candles[0]['open'];
         $diffHLLast = $candles[0]['high'] - $candles[0]['low'];
-        $diffOCPrev = $candles[1]['close'] - $cand
+        $diffOCPrev = $candles[1]['close'] - $candles[1]['open'];
+        $diffHLPrev =
