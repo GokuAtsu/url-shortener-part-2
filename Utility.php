@@ -214,4 +214,5 @@ class Utility {
         $diffHLLast = $candles[0]['high'] - $candles[0]['low'];
         $diffOCPrev = $candles[1]['close'] - $candles[1]['open'];
         $diffHLPrev = $candles[1]['high'] - $candles[1]['low'];
-  
+       
+        if(abs($dif
