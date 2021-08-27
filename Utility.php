@@ -223,4 +223,5 @@ class Utility {
     return false;
   }
 
-  public funct
+  public function pinCandleLong($candles){
+    
