@@ -224,4 +224,5 @@ class Utility {
   }
 
   public function pinCandleLong($candles){
-    
+    $MA8 = new EMA(8, $candles);
+   
