@@ -231,4 +231,6 @@ class Utility {
     if($candles[0]['close'] > $MA8->getLastValue() && $candles[0]['low'] <= $MA13->getLastValue()){
       $diffOC = $candles[0]['close'] - $candles[0]['open'];
       $diffHL = $candles[0]['high'] - $candles[0]['low'];
-      //$diffHC = $candles[0]['high'] - $ca
+      //$diffHC = $candles[0]['high'] - $candles[0]['close'];
+      
+  
