@@ -234,4 +234,6 @@ class Utility {
       //$diffHC = $candles[0]['high'] - $candles[0]['close'];
       
       if(abs($diffOC/$diffHL) <= 0.3){
-         
+          return true;
+      }
+ 
