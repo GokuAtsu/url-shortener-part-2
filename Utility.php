@@ -236,4 +236,7 @@ class Utility {
       if(abs($diffOC/$diffHL) <= 0.3){
           return true;
       }
- 
+  
+    }
+
+    retu
