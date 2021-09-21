@@ -243,4 +243,4 @@ class Utility {
 
   }
 
-  p
+  public function pinCandleShor
