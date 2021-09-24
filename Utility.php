@@ -248,4 +248,4 @@ class Utility {
     $MA13 = new EMA(13, $candles);
     $MA21 = new EMA(21, $candles);
 
-    if($candles[0]['close'] < $MA8->get
+    if($candles[0]['close'] < $MA8->getLastValue() && $candles[0][
