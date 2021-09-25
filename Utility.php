@@ -249,4 +249,5 @@ class Utility {
     $MA21 = new EMA(21, $candles);
 
     if($candles[0]['close'] < $MA8->getLastValue() && $candles[0]['high'] >= $MA13->getLastValue()){
-      $diffOC = $candles[0]['close'] - $candles[0]['op
+      $diffOC = $candles[0]['close'] - $candles[0]['open'];
+      $diffHL = $candles[0
