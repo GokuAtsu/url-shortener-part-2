@@ -1,4 +1,6 @@
 <?php
 
 
-cla
+class Validator {
+
+  private $cur
