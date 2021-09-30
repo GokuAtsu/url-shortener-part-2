@@ -259,4 +259,10 @@ class Utility {
   
     }
 
-    return fals
+    return false;
+
+  }
+ 
+}
+
+?>
