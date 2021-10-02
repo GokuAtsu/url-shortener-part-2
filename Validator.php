@@ -4,4 +4,6 @@
 class Validator {
 
   private $currentPrice;
-  private $posizioniAper
+  private $posizioniAperte;
+
+  public functi
