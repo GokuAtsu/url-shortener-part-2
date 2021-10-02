@@ -6,4 +6,4 @@ class Validator {
   private $currentPrice;
   private $posizioniAperte;
 
-  public functi
+  public function __construct($currentPri
