@@ -14,4 +14,4 @@ class Validator {
 
   }
 
-  publi
+  public function validat
