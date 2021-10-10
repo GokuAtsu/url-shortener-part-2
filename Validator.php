@@ -9,4 +9,9 @@ class Validator {
   public function __construct($currentPrice, $posizioniAperte) {
 
     $this->currentPrice = $currentPrice;
-    $this->posizioniAperte = $pos
+    $this->posizioniAperte = $posizioniAperte;
+
+
+  }
+
+  publi
