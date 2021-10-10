@@ -14,4 +14,5 @@ class Validator {
 
   }
 
-  public function validat
+  public function validate(){
+    if(isset($t
