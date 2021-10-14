@@ -15,4 +15,4 @@ class Validator {
   }
 
   public function validate(){
-    if(isset($this->currentPrice) && i
+    if(isset($this->currentPrice) && isset($this->posizio
