@@ -15,4 +15,5 @@ class Validator {
   }
 
   public function validate(){
-    if(isset($this->currentPrice) && isset($this->posizio
+    if(isset($this->currentPrice) && isset($this->posizioniAperte)){
+      retur
