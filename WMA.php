@@ -1,4 +1,6 @@
 <?php
 
 
-cl
+class WMA {
+
+  private $PERIOD
