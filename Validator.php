@@ -18,4 +18,9 @@ class Validator {
     if(isset($this->currentPrice) && isset($this->posizioniAperte)){
       return true;
     }
-    return fa
+    return false;
+  }
+
+}
+
+?>
