@@ -3,4 +3,5 @@
 
 class WMA {
 
-  private $PERIOD
+  private $PERIODI = 80;
+  private $TIMEFRAM
