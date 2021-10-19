@@ -4,4 +4,5 @@
 class WMA {
 
   private $PERIODI = 80;
-  private $TIMEFRAM
+  private $TIMEFRAME = "1h";
+  private $bi
