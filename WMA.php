@@ -8,4 +8,4 @@ class WMA {
   private $bitmex;
 
   public function isPositive(){
-    $resMe
+    $resMedia = $this->getLastTwoV
