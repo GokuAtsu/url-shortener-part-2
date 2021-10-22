@@ -5,4 +5,6 @@ class WMA {
 
   private $PERIODI = 80;
   private $TIMEFRAME = "1h";
-  private $bi
+  private $bitmex;
+
+  public function i
