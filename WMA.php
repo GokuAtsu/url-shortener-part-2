@@ -7,4 +7,5 @@ class WMA {
   private $TIMEFRAME = "1h";
   private $bitmex;
 
-  public function i
+  public function isPositive(){
+    $resMe
