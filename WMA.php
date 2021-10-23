@@ -10,4 +10,7 @@ class WMA {
   public function isPositive(){
     $resMedia = $this->getLastTwoValues();
     if((floatval($resMedia[0]) - floatval($resMedia[1])) > 0){
-      return 
+      return true;
+    }
+    return false;
+ 
