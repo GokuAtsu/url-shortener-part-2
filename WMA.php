@@ -13,4 +13,7 @@ class WMA {
       return true;
     }
     return false;
- 
+  }
+  
+
+  public functi
