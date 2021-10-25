@@ -19,3 +19,4 @@ class WMA {
   public function getLastValue() {
 
     
+    $candele = $thi
