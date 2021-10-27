@@ -19,4 +19,4 @@ class WMA {
   public function getLastValue() {
 
     
-    $candele = $this->bitmex->getCandles
+    $candele = $this->bitmex->getCandles($this->TIMEFRAME, $th
