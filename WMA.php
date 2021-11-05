@@ -27,4 +27,4 @@ class WMA {
     $denominatore = floatval($numCandele * ($numCandele+1))/2;
 
     for($i=0; $i<$numCandele; $i++){
-      $numeratore += floatval
+      $numeratore += floatval($candele[$i]['close']*($numCandele-$
