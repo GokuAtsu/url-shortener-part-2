@@ -32,4 +32,4 @@ class WMA {
     }
 
 
-    return f
+    return floatval($numeratore/$denomi
