@@ -32,4 +32,8 @@ class WMA {
     }
 
 
-    return floatval($numeratore/$denomi
+    return floatval($numeratore/$denominatore);
+
+  }
+
+  public functi
