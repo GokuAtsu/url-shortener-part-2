@@ -38,4 +38,4 @@ class WMA {
 
   public function getLastTwoValues() {
 
-   
+    $candele = $this->bitm
