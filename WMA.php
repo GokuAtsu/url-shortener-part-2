@@ -36,4 +36,6 @@ class WMA {
 
   }
 
-  public functi
+  public function getLastTwoValues() {
+
+   
