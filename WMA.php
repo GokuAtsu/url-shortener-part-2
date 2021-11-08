@@ -38,4 +38,5 @@ class WMA {
 
   public function getLastTwoValues() {
 
-    $candele = $this->bitmex->getCandles($this->TIMEFRAME, (($this->PERIODI)+1
+    $candele = $this->bitmex->getCandles($this->TIMEFRAME, (($this->PERIODI)+1));
+    $numCandele = count(
