@@ -42,4 +42,5 @@ class WMA {
     $numCandele = count($candele);
     $numCandeleEFF = $numCandele-1;
 
-    $numer
+    $numeratore = 0; 
+    $denom
