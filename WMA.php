@@ -40,4 +40,6 @@ class WMA {
 
     $candele = $this->bitmex->getCandles($this->TIMEFRAME, (($this->PERIODI)+1));
     $numCandele = count($candele);
-    $numCandeleEF
+    $numCandeleEFF = $numCandele-1;
+
+    $numer
