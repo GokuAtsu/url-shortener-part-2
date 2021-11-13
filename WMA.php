@@ -43,4 +43,4 @@ class WMA {
     $numCandeleEFF = $numCandele-1;
 
     $numeratore = 0; 
-    $denominatore = floatval($nu
+    $denominatore = floatval($numCandeleEFF * ($numCandeleE
