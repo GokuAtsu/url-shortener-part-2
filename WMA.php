@@ -52,4 +52,5 @@ class WMA {
     $media1 = $numeratore/$denominatore;
 
 
-    $numer
+    $numeratore = 0; 
+    for($i=1; $i<
