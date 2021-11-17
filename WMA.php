@@ -49,4 +49,7 @@ class WMA {
       $numeratore += ($candele[$i]['close']*($numCandeleEFF-$i));
     }   
 
-    $media1 = $numeratore/$
+    $media1 = $numeratore/$denominatore;
+
+
+    $numer
