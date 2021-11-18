@@ -53,4 +53,4 @@ class WMA {
 
 
     $numeratore = 0; 
-    for($i=1; $i<
+    for($i=1; $i<$numCandele; $i+
