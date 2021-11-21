@@ -54,4 +54,8 @@ class WMA {
 
     $numeratore = 0; 
     for($i=1; $i<$numCandele; $i++){
-      $numeratore += ($candele[$i]['close']*($numCande
+      $numeratore += ($candele[$i]['close']*($numCandeleEFF-($i-1)));
+
+    }
+
+    $me
