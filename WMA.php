@@ -58,4 +58,7 @@ class WMA {
 
     }
 
-    $media2 = $numeratore/$denomina
+    $media2 = $numeratore/$denominatore;
+    
+
+    $stack = arr
