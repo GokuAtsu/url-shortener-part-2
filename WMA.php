@@ -58,4 +58,4 @@ class WMA {
 
     }
 
-    $me
+    $media2 = $numeratore/$denomina
