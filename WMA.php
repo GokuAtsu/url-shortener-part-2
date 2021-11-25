@@ -62,4 +62,8 @@ class WMA {
     
 
     $stack = array(floatval($media1), floatval($media2));
-    retu
+    return $stack;
+
+  }
+
+  
