@@ -61,4 +61,5 @@ class WMA {
     $media2 = $numeratore/$denominatore;
     
 
-    $stack = array(floatval($media1), floatv
+    $stack = array(floatval($media1), floatval($media2));
+    retu
