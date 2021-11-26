@@ -66,4 +66,4 @@ class WMA {
 
   }
 
-  
+  public function __construct(
