@@ -66,4 +66,6 @@ class WMA {
 
   }
 
-  public function __construct(
+  public function __construct($bitmex) {
+
+    $this->bitmex
