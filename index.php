@@ -1,3 +1,4 @@
 <?php
 include "BitMex.php";
-includ
+include "MovingAverage.php";
+inclu
