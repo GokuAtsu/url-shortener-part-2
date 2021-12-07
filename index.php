@@ -4,4 +4,5 @@ include "MovingAverage.php";
 include "OrderHandler.php";
 include "TelegramHandler.php";
 include "Donchian.php";
-include "W
+include "WMA.php";
+include "DB
