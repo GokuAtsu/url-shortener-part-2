@@ -3,4 +3,5 @@ include "BitMex.php";
 include "MovingAverage.php";
 include "OrderHandler.php";
 include "TelegramHandler.php";
-i
+include "Donchian.php";
+include "W
