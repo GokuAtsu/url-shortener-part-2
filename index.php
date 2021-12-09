@@ -7,4 +7,6 @@ include "Donchian.php";
 include "WMA.php";
 include "DBHandler.php";
 include "Logger.php";
-include "Va
+include "Validator.php";
+
+//INSERT
