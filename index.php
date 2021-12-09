@@ -6,4 +6,5 @@ include "TelegramHandler.php";
 include "Donchian.php";
 include "WMA.php";
 include "DBHandler.php";
-include
+include "Logger.php";
+include "Va
