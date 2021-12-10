@@ -10,4 +10,5 @@ include "Logger.php";
 include "Validator.php";
 
 //INSERT BITMEX API KEY HERE
-$
+$key = "";
+$secret = "";
