@@ -9,4 +9,5 @@ include "DBHandler.php";
 include "Logger.php";
 include "Validator.php";
 
-//INSERT
+//INSERT BITMEX API KEY HERE
+$
