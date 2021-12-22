@@ -12,3 +12,8 @@ include "Validator.php";
 //INSERT BITMEX API KEY HERE
 $key = "";
 $secret = "";
+
+$PERIODI = 16;
+$LEVA = 1;
+
+$
