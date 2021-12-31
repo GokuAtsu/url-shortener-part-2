@@ -16,4 +16,5 @@ $secret = "";
 $PERIODI = 16;
 $LEVA = 1;
 
-$bitmex = new BitMex($key, 
+$bitmex = new BitMex($key, $secret);
+$MA = new MovingAverage(
