@@ -16,4 +16,4 @@ $secret = "";
 $PERIODI = 16;
 $LEVA = 1;
 
-$
+$bitmex = new BitMex($key, 
