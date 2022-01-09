@@ -18,4 +18,4 @@ $LEVA = 1;
 
 $bitmex = new BitMex($key, $secret);
 $MA = new MovingAverage($bitmex);
-$orderHand
+$orderHandler = new OrderHandler($
