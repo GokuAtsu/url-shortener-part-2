@@ -18,4 +18,5 @@ $LEVA = 1;
 
 $bitmex = new BitMex($key, $secret);
 $MA = new MovingAverage($bitmex);
-$orderHandler = new OrderHandler($
+$orderHandler = new OrderHandler($bitmex);
+$donchian = new
