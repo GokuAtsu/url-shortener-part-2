@@ -20,4 +20,5 @@ $bitmex = new BitMex($key, $secret);
 $MA = new MovingAverage($bitmex);
 $orderHandler = new OrderHandler($bitmex);
 $donchian = new Donchian($bitmex);
-$WMA = new WMA
+$WMA = new WMA($bitmex);
+$telegramHandler = new Te
