@@ -21,4 +21,5 @@ $MA = new MovingAverage($bitmex);
 $orderHandler = new OrderHandler($bitmex);
 $donchian = new Donchian($bitmex);
 $WMA = new WMA($bitmex);
-$telegramHandler = new Te
+$telegramHandler = new TelegramHandler();
+$DBHandler 
