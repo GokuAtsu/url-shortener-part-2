@@ -22,4 +22,6 @@ $orderHandler = new OrderHandler($bitmex);
 $donchian = new Donchian($bitmex);
 $WMA = new WMA($bitmex);
 $telegramHandler = new TelegramHandler();
-$DBHandler 
+$DBHandler = new DBHandler();
+
+$tick 
