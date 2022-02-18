@@ -25,4 +25,6 @@ $telegramHandler = new TelegramHandler();
 $DBHandler = new DBHandler();
 
 $tick = $bitmex->getTicker();
-$bandWidth = $donch
+$bandWidth = $donchian->getBandWidth();
+
+//
