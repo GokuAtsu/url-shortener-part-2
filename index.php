@@ -24,4 +24,5 @@ $WMA = new WMA($bitmex);
 $telegramHandler = new TelegramHandler();
 $DBHandler = new DBHandler();
 
-$tick = $bitmex->getTicker
+$tick = $bitmex->getTicker();
+$bandWidth = $donch
