@@ -27,4 +27,5 @@ $DBHandler = new DBHandler();
 $tick = $bitmex->getTicker();
 $bandWidth = $donchian->getBandWidth();
 
-//
+//INIT CONTRACTS
+$saldo = floatval
