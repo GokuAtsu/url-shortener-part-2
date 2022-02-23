@@ -28,4 +28,5 @@ $tick = $bitmex->getTicker();
 $bandWidth = $donchian->getBandWidth();
 
 //INIT CONTRACTS
-$saldo = floatval($bitmex->getWallet()['amount']
+$saldo = floatval($bitmex->getWallet()['amount']) / 100000000;
+$contrat
