@@ -30,4 +30,6 @@ $bandWidth = $donchian->getBandWidth();
 //INIT CONTRACTS
 $saldo = floatval($bitmex->getWallet()['amount']) / 100000000;
 $contrattiInvestiti = 0;
-$posizioniAperte = $bitmex->
+$posizioniAperte = $bitmex->getOpenPositions();
+
+if (c
