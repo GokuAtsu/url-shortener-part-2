@@ -33,4 +33,4 @@ $contrattiInvestiti = 0;
 $posizioniAperte = $bitmex->getOpenPositions();
 
 if (count($posizioniAperte) > 0) {
-    $contrattiInvestiti
+    $contrattiInvestiti = intval($posizioniAperte
