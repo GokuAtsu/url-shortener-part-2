@@ -32,4 +32,5 @@ $saldo = floatval($bitmex->getWallet()['amount']) / 100000000;
 $contrattiInvestiti = 0;
 $posizioniAperte = $bitmex->getOpenPositions();
 
-if (count($posizioniAperte) > 0)
+if (count($posizioniAperte) > 0) {
+    $contrattiInvestiti
