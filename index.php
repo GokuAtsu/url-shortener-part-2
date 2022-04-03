@@ -33,4 +33,4 @@ $contrattiInvestiti = 0;
 $posizioniAperte = $bitmex->getOpenPositions();
 
 if (count($posizioniAperte) > 0) {
-    $contrattiInvestiti = intval($posizioniAperte[0]['currentQty']) > 0 ? intval($posizioniAperte[0]['currentQty']) : -(intval($posizioniApe
+    $contrattiInvestiti = intval($posizioniAperte[0]['currentQty']) > 0 ? intval($posizioniAperte[0]['currentQty']) : -(intval($posizioniAperte[0]['currentQty']))
