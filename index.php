@@ -36,4 +36,5 @@ if (count($posizioniAperte) > 0) {
     $contrattiInvestiti = intval($posizioniAperte[0]['currentQty']) > 0 ? intval($posizioniAperte[0]['currentQty']) : -(intval($posizioniAperte[0]['currentQty']));
 }
 
-$contrattiAcq = (round(floatval($saldo) * floatval($tick['last']) * 0.9 * ($LEVA
+$contrattiAcq = (round(floatval($saldo) * floatval($tick['last']) * 0.9 * ($LEVA)) - $contrattiInvestiti);
+$
