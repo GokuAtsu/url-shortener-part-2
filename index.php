@@ -37,4 +37,6 @@ if (count($posizioniAperte) > 0) {
 }
 
 $contrattiAcq = (round(floatval($saldo) * floatval($tick['last']) * 0.9 * ($LEVA)) - $contrattiInvestiti);
-$contrattiAcqAll = round(floatval($saldo) * floatval($tick['last']) * 0.9 * ($LEVA
+$contrattiAcqAll = round(floatval($saldo) * floatval($tick['last']) * 0.9 * ($LEVA));
+$fixedContracts = 30;
+$
