@@ -40,4 +40,4 @@ $contrattiAcq = (round(floatval($saldo) * floatval($tick['last']) * 0.9 * ($LEVA
 $contrattiAcqAll = round(floatval($saldo) * floatval($tick['last']) * 0.9 * ($LEVA));
 $fixedContracts = 30;
 $prezzoAcq = intval($tick['last']);
-$step = 
+$step = (int) $DBHandler->getFiel
