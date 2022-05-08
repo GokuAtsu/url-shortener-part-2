@@ -41,4 +41,5 @@ $contrattiAcqAll = round(floatval($saldo) * floatval($tick['last']) * 0.9 * ($LE
 $fixedContracts = 30;
 $prezzoAcq = intval($tick['last']);
 $step = (int) $DBHandler->getField("numero_operazioni");
-$verso = (int) $DBH
+$verso = (int) $DBHandler->getField("verso");
+$bandaH =
