@@ -43,4 +43,6 @@ $prezzoAcq = intval($tick['last']);
 $step = (int) $DBHandler->getField("numero_operazioni");
 $verso = (int) $DBHandler->getField("verso");
 $bandaH = $donchian->getBandaH();
-$bandaL = $donchian-
+$bandaL = $donchian->getBandaL();
+
+$logger = n
