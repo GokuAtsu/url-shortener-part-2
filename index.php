@@ -42,4 +42,5 @@ $fixedContracts = 30;
 $prezzoAcq = intval($tick['last']);
 $step = (int) $DBHandler->getField("numero_operazioni");
 $verso = (int) $DBHandler->getField("verso");
-$bandaH = $donchian->getBandaH(
+$bandaH = $donchian->getBandaH();
+$bandaL = $donchian-
