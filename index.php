@@ -45,4 +45,4 @@ $verso = (int) $DBHandler->getField("verso");
 $bandaH = $donchian->getBandaH();
 $bandaL = $donchian->getBandaL();
 
-$logger = n
+$logger = new Logger($tick['last'], $ban
