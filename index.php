@@ -46,4 +46,6 @@ $bandaH = $donchian->getBandaH();
 $bandaL = $donchian->getBandaL();
 
 $logger = new Logger($tick['last'], $bandWidth, $bandaH, $bandaL);
-$validator = new Validator($tick, $posizi
+$validator = new Validator($tick, $posizioniAperte);
+
+if (!isse
