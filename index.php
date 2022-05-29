@@ -48,4 +48,4 @@ $bandaL = $donchian->getBandaL();
 $logger = new Logger($tick['last'], $bandWidth, $bandaH, $bandaL);
 $validator = new Validator($tick, $posizioniAperte);
 
-if (!isse
+if (!isset($tick) || !isset($
