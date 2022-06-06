@@ -49,4 +49,5 @@ $logger = new Logger($tick['last'], $bandWidth, $bandaH, $bandaL);
 $validator = new Validator($tick, $posizioniAperte);
 
 if (!isset($tick) || !isset($saldo) || !isset($bandaH) || !isset($bandaL) || !isset($bandWidth)) {
-    $log
+    $logger->logData();
+    
