@@ -50,4 +50,4 @@ $validator = new Validator($tick, $posizioniAperte);
 
 if (!isset($tick) || !isset($saldo) || !isset($bandaH) || !isset($bandaL) || !isset($bandWidth)) {
     $logger->logData();
-    $telegramHandler->sendTelegramMessage("Validator succe
+    $telegramHandler->sendTelegramMessage("Validator success: chiamata a Bitmex 
