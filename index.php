@@ -50,4 +50,4 @@ $validator = new Validator($tick, $posizioniAperte);
 
 if (!isset($tick) || !isset($saldo) || !isset($bandaH) || !isset($bandaL) || !isset($bandWidth)) {
     $logger->logData();
-    $telegramHandler->sendTele
+    $telegramHandler->sendTelegramMessage("Validator succe
