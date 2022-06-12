@@ -55,3 +55,5 @@ if (!isset($tick) || !isset($saldo) || !isset($bandaH) || !isset($bandaL) || !is
 }
 
 //LONG
+if ($verso != 2) {
+    if ($st
