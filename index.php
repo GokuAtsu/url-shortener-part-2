@@ -56,4 +56,4 @@ if (!isset($tick) || !isset($saldo) || !isset($bandaH) || !isset($bandaL) || !is
 
 //LONG
 if ($verso != 2) {
-    if ($step == 0 && $MA->isPositive() && $WMA->isPositive()
+    if ($step == 0 && $MA->isPositive() && $WMA->isPositive() && $tick['last'] > $bandaH && $band
