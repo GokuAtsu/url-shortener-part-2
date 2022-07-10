@@ -58,4 +58,5 @@ if (!isset($tick) || !isset($saldo) || !isset($bandaH) || !isset($bandaL) || !is
 if ($verso != 2) {
     if ($step == 0 && $MA->isPositive() && $WMA->isPositive() && $tick['last'] > $bandaH && $bandWidth > 0.025) {
         $orderHandler->openLong($prezzoAcq, $fixedContracts, $LEVA);
-        $telegramHandler->sendTelegramMessage("Entrato long a: " . $tick['last'] . " step numer
+        $telegramHandler->sendTelegramMessage("Entrato long a: " . $tick['last'] . " step numero " . ($step + 1));
+        $DBHand
