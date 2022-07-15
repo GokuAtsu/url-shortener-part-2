@@ -60,4 +60,4 @@ if ($verso != 2) {
         $orderHandler->openLong($prezzoAcq, $fixedContracts, $LEVA);
         $telegramHandler->sendTelegramMessage("Entrato long a: " . $tick['last'] . " step numero " . ($step + 1));
         $DBHandler->updateField("numero_operazioni", ($step + 1));
-        $DBHandler->update
+        $DBHandler->updateField("prezzo_entrata", $pre
