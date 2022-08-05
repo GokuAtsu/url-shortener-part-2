@@ -65,4 +65,5 @@ if ($verso != 2) {
         $logger -> logData();
 
     } else if ($step > 0 && $step < 3 && $tick['last'] >= ($DBHandler->getField("prezzo_entrata") * 1.05)) {
-        $orderHandler->openLong($prezzoAcq, $fixedCont
+        $orderHandler->openLong($prezzoAcq, $fixedContracts, $LEVA);
+       
