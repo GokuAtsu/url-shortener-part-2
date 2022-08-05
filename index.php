@@ -64,4 +64,5 @@ if ($verso != 2) {
         $DBHandler->updateField("verso", 1);
         $logger -> logData();
 
-    } else if ($step > 0 && $step < 3 && $tick['last'] >= ($DBHandler->getField("prezzo_entrata") * 1.05)) 
+    } else if ($step > 0 && $step < 3 && $tick['last'] >= ($DBHandler->getField("prezzo_entrata") * 1.05)) {
+        $orderHan
