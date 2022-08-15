@@ -70,4 +70,4 @@ if ($verso != 2) {
         $DBHandler->updateField("numero_operazioni", ($step + 1));
         $logger -> logData();
 
-    } else if ($st
+    } else if ($step >= 3 && $tick['last'] 
