@@ -70,4 +70,5 @@ if ($verso != 2) {
         $DBHandler->updateField("numero_operazioni", ($step + 1));
         $logger -> logData();
 
-    } else if ($step >= 3 && $tick['last'] >= ($DBHandler->getField("p
+    } else if ($step >= 3 && $tick['last'] >= ($DBHandler->getField("prezzo_entrata") * 1.2)) {
+  
