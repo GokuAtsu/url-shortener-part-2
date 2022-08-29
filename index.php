@@ -72,4 +72,4 @@ if ($verso != 2) {
 
     } else if ($step >= 3 && $tick['last'] >= ($DBHandler->getField("prezzo_entrata") * 1.2)) {
         $orderHandler->closeAll();
-        $telegramHandler->sendTelegramMessage("C
+        $telegramHandler->sendTelegramMessage("Chiuso il long a: " . $ti
