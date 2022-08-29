@@ -74,4 +74,4 @@ if ($verso != 2) {
         $orderHandler->closeAll();
         $telegramHandler->sendTelegramMessage("Chiuso il long a: " . $tick['last'] . " per profit");
         $DBHandler->updateField("numero_operazioni", 0);
-       
+        $DBHandler->updateField("prezzo_ent
