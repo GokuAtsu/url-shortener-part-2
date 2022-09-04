@@ -79,4 +79,5 @@ if ($verso != 2) {
     
     } else if ($step > 0 && $tick['last'] < $bandaL && !($WMA->isPositive())) {
         $orderHandler->closeAll();
-        $telegramHandler->sendTelegramMessage("Chiuso il long a: " . $tick['la
+        $telegramHandler->sendTelegramMessage("Chiuso il long a: " . $tick['last'] . " in perdita");
+        $
