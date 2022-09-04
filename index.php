@@ -77,4 +77,4 @@ if ($verso != 2) {
         $DBHandler->updateField("prezzo_entrata", 0);
         $logger -> logData();
     
-    } else if ($step > 0 && $t
+    } else if ($step > 0 && $tick['last'] < $bandaL && !($
