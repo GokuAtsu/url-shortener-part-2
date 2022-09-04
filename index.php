@@ -78,4 +78,5 @@ if ($verso != 2) {
         $logger -> logData();
     
     } else if ($step > 0 && $tick['last'] < $bandaL && !($WMA->isPositive())) {
-        $orderHandler->close
+        $orderHandler->closeAll();
+        $telegramHandler->se
