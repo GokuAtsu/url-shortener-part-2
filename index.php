@@ -82,4 +82,4 @@ if ($verso != 2) {
         $telegramHandler->sendTelegramMessage("Chiuso il long a: " . $tick['last'] . " in perdita");
         $DBHandler->updateField("numero_operazioni", 0);
         $DBHandler->updateField("prezzo_entrata", 0);
-        $DBHa
+        $DBHandler->updateField("verso", 0
