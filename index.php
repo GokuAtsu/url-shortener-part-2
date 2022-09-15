@@ -84,3 +84,8 @@ if ($verso != 2) {
         $DBHandler->updateField("prezzo_entrata", 0);
         $DBHandler->updateField("verso", 0);
         $logger -> logData();
+    }
+}
+
+//SHORT
+if
