@@ -88,4 +88,5 @@ if ($verso != 2) {
 }
 
 //SHORT
-if
+if ($verso != 1) {
+    if ($step
