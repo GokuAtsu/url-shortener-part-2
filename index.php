@@ -89,4 +89,4 @@ if ($verso != 2) {
 
 //SHORT
 if ($verso != 1) {
-    if ($step == 0 && !($MA->isPositive()) && !
+    if ($step == 0 && !($MA->isPositive()) && !($WMA->isPositive()) && $
