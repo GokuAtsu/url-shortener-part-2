@@ -89,4 +89,5 @@ if ($verso != 2) {
 
 //SHORT
 if ($verso != 1) {
-    if ($step == 0 && !($MA->isPositive()) && !($WMA->isPositive()) && $tick['last'] < $bandaL)
+    if ($step == 0 && !($MA->isPositive()) && !($WMA->isPositive()) && $tick['last'] < $bandaL) {
+        $orderHandler->openS
