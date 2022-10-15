@@ -91,4 +91,4 @@ if ($verso != 2) {
 if ($verso != 1) {
     if ($step == 0 && !($MA->isPositive()) && !($WMA->isPositive()) && $tick['last'] < $bandaL) {
         $orderHandler->openShort($prezzoAcq, $fixedContracts, $LEVA);
-        $telegramHandler->sendTelegramMessage("Entrato short a: " .
+        $telegramHandler->sendTelegramMessage("Entrato short a: " . $tick['last'] . " step numero 
