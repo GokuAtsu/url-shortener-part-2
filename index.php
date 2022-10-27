@@ -94,4 +94,5 @@ if ($verso != 1) {
         $telegramHandler->sendTelegramMessage("Entrato short a: " . $tick['last'] . " step numero " . ($step + 1));
         $DBHandler->updateField("numero_operazioni", ($step + 1));
         $DBHandler->updateField("prezzo_entrata", $prezzoAcq);
-        $DBHandler->upda
+        $DBHandler->updateField("verso", 2);
+        $logger
