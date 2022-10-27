@@ -95,4 +95,6 @@ if ($verso != 1) {
         $DBHandler->updateField("numero_operazioni", ($step + 1));
         $DBHandler->updateField("prezzo_entrata", $prezzoAcq);
         $DBHandler->updateField("verso", 2);
-        $logger
+        $logger -> logData();
+
+    } else i
