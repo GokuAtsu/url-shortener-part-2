@@ -97,4 +97,4 @@ if ($verso != 1) {
         $DBHandler->updateField("verso", 2);
         $logger -> logData();
 
-    } else i
+    } else if ($step > 0 && $step < 3 && $ti
