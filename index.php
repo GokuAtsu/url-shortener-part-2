@@ -99,4 +99,4 @@ if ($verso != 1) {
 
     } else if ($step > 0 && $step < 3 && $tick['last'] <= ($DBHandler->getField("prezzo_entrata") * 0.95)) {
         $orderHandler->openShort($prezzoAcq, $fixedContracts, $LEVA);
-        $telegramHandler->sendTeleg
+        $telegramHandler->sendTelegramMessage("Entrato 
