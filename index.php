@@ -106,4 +106,4 @@ if ($verso != 1) {
     } else if ($step >= 3 && $tick['last'] <= ($DBHandler->getField("prezzo_entrata") * 0.8)) {
         $orderHandler->closeAll();
         $telegramHandler->sendTelegramMessage("Chiuso lo short a: " . $tick['last'] . " per profit");
-        $DBHandl
+        $DBHandler->updateField("numero_oper
