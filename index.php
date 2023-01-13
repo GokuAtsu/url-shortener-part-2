@@ -107,4 +107,4 @@ if ($verso != 1) {
         $orderHandler->closeAll();
         $telegramHandler->sendTelegramMessage("Chiuso lo short a: " . $tick['last'] . " per profit");
         $DBHandler->updateField("numero_operazioni", 0);
-        
+        $DBHandler->updateField(
