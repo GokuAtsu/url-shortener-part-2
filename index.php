@@ -104,4 +104,5 @@ if ($verso != 1) {
         $logger -> logData();
 
     } else if ($step >= 3 && $tick['last'] <= ($DBHandler->getField("prezzo_entrata") * 0.8)) {
-        $orderHandler->cl
+        $orderHandler->closeAll();
+        $telegra
