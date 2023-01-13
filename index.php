@@ -105,4 +105,4 @@ if ($verso != 1) {
 
     } else if ($step >= 3 && $tick['last'] <= ($DBHandler->getField("prezzo_entrata") * 0.8)) {
         $orderHandler->closeAll();
-        $telegra
+        $telegramHandler->sendTelegramMessage("Chiuso
