@@ -112,4 +112,4 @@ if ($verso != 1) {
 
     } else if ($step > 0 && $tick['last'] > $bandaH && $WMA->isPositive()) {
         $orderHandler->closeAll();
-        $telegramHandler->sendTelegramMessage("Chiuso l
+        $telegramHandler->sendTelegramMessage("Chiuso lo short a: " . $tick['
