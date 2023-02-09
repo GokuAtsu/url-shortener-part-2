@@ -112,4 +112,4 @@ if ($verso != 1) {
 
     } else if ($step > 0 && $tick['last'] > $bandaH && $WMA->isPositive()) {
         $orderHandler->closeAll();
-        $te
+        $telegramHandler->sendTel
