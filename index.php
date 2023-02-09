@@ -111,4 +111,5 @@ if ($verso != 1) {
         $logger -> logData();
 
     } else if ($step > 0 && $tick['last'] > $bandaH && $WMA->isPositive()) {
-        $orderHandler-
+        $orderHandler->closeAll();
+        $te
