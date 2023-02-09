@@ -110,4 +110,4 @@ if ($verso != 1) {
         $DBHandler->updateField("prezzo_entrata", 0);
         $logger -> logData();
 
-    } else if ($step > 0 && $tick['last
+    } else if ($step > 0 && $tick['last'] > $bandaH && $WMA->isPositive()
