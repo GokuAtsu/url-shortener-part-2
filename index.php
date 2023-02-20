@@ -113,4 +113,5 @@ if ($verso != 1) {
     } else if ($step > 0 && $tick['last'] > $bandaH && $WMA->isPositive()) {
         $orderHandler->closeAll();
         $telegramHandler->sendTelegramMessage("Chiuso lo short a: " . $tick['last'] . " in perdita");
-        $DBHandler->updateField("numero_operazioni", 0
+        $DBHandler->updateField("numero_operazioni", 0);
+        $DBHandler->upda
