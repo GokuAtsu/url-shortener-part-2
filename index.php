@@ -115,4 +115,4 @@ if ($verso != 1) {
         $telegramHandler->sendTelegramMessage("Chiuso lo short a: " . $tick['last'] . " in perdita");
         $DBHandler->updateField("numero_operazioni", 0);
         $DBHandler->updateField("prezzo_entrata", 0);
-        $DBHandler->upd
+        $DBHandler->updateField("verso", 0);
