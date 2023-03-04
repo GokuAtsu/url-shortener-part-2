@@ -116,4 +116,8 @@ if ($verso != 1) {
         $DBHandler->updateField("numero_operazioni", 0);
         $DBHandler->updateField("prezzo_entrata", 0);
         $DBHandler->updateField("verso", 0);
-        $logger -> lo
+        $logger -> logData();
+    }
+}
+
+?>
